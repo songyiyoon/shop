@@ -54,7 +54,7 @@ function Nabar({ authenticate, setAuthenticate }) {
         </ul>
         <div className="input">
           <IoSearchSharp />
-          <input type="text" onKeyDown={search} />
+          <input type="text" onKeyDown={(event)=>search(event)} />
         </div>
       </div>
     </div>
