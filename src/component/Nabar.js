@@ -28,7 +28,7 @@ function Nabar({ authenticate, setAuthenticate }) {
       console.log(keyword)
       navigate(`/?q=${keyword}`)
     }
-  }
+  };
   return (
     <div>
       <div className="login-button" onClick={gotoLogin}>
